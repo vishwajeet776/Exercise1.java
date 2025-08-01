@@ -3,10 +3,10 @@ import java.util.Scanner;
 class Cylinder{
     private int r;
     private int h;
-    public Cylinder(){
-        this.r=r;
-        this.h=h;
-    }
+//    public Cylinder(){
+//        this.r=r;
+//        this.h=h;
+//    }
 
     public int getR() {
         return r;

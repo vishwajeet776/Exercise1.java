@@ -4,7 +4,7 @@ public class Recursion5 {
             System.out.println(name.charAt(n));
             return;
         }
-        System.out.println(name.charAt(n));
+        System.out.print(name.charAt(n)+" ");
         reverse_string(name,n-1);
     }
     public static void main(String[] args) {

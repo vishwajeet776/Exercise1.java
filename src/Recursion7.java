@@ -1,6 +1,6 @@
 public class Recursion7 {
     public static boolean is_sorted(int arr[],int n){
-        if(n== arr.length-1){
+        if(n==arr.length-1){
             return true ;
         }
         if(arr[n] < arr[n+1]){

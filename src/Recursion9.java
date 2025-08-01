@@ -1,4 +1,5 @@
 public class Recursion9 {
+// To print Subsequences of abc/alphabets
     public static void Subsequences(String scr,int idx,String new_string){
         if (idx==scr.length()){
             System.out.println(new_string);
@@ -10,7 +11,7 @@ public class Recursion9 {
     }
     public static void main(String[] args) {;
         String scr="abc";
-        Subsequences(scr,0,"*");
+        Subsequences(scr,0," ");
 
 
     }

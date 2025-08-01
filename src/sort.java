@@ -43,10 +43,9 @@ class Sorting {
             arr[i] = temp;
 
         }
-
-
         printArray(arr);
 
     }
 
 }
+

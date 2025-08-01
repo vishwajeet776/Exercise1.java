@@ -4,12 +4,12 @@ public class Recursion1 {
             System.out.println(sum);
             return;
         }
-        sum *=n;
+        sum +=n;
         print_sum(n-1,sum);
     }
     public static void main(String[] args) {
         int n=5;
-        int sum=1;
+        int sum=0;
         print_sum(n,sum);
     }
 }

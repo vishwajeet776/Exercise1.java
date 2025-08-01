@@ -43,6 +43,7 @@ public class LL1 {
            prev = prev.Next;
            cp++;
        }
+       System.out.println(prev.Next.data);
        prev.Next=prev.Next.Next;
        return head;
    }

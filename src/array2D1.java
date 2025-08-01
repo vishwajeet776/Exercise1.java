@@ -6,6 +6,7 @@ public class array2D1 {
         int n=sc.nextInt();
         int m=sc.nextInt();
         int matrix[][]=new int[n][m];
+        System.out.println("enter arr");
         for (int i=0;i<n;i++){
             for (int j=0;j<m;j++){
                 matrix[i][j]=sc.nextInt();
